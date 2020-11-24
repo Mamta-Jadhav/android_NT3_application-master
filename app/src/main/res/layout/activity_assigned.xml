@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+                android:background="@color/white">
+
+    <LinearLayout
+            android:id="@+id/topLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:weightSum="2"
+            android:elevation="4dp">
+
+        <ImageView
+                android:id="@+id/logoImageView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:layout_gravity="left"
+                android:src="@drawable/go_back_left_arrow"/>
+
+        <TextView android:layout_width="30dp"
+                  android:layout_height="match_parent"
+                  android:text="Status :"
+                  android:textSize="18dp"
+                  android:layout_weight=".5"
+                  android:gravity="center"
+                  android:paddingLeft="10dp"/>
+
+
+        <TextView android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:text="Assigned"
+                  android:layout_weight="2"
+                  android:textSize="18dp"
+                  android:gravity="center|left"
+                  android:paddingLeft="5dp"/>
+
+    </LinearLayout>
+
+     <LinearLayout android:id="@+id/resolvedLayout"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_below="@+id/topLinearLayout"
+                   android:layout_marginLeft="2dp"
+                   android:layout_marginRight="2dp"
+                   android:background="@drawable/spinner_bg"
+                  android:orientation="horizontal">
+
+
+         <androidx.recyclerview.widget.RecyclerView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"/>
+     </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "768954554429",
+    "firebase_url": "https://nt3app.firebaseio.com",
+    "project_id": "nt3app",
+    "storage_bucket": "nt3app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768954554429:android:ca2952c0f8b22478397254",
+        "android_client_info": {
+          "package_name": "com.nectarinfotell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768954554429-j0un76udopc0rbqnjcro894o282f24jg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nectarinfotell",
+            "certificate_hash": "a228bdefd4826536c1ee7656ecc901f197f40945"
+          }
+        },
+        {
+          "client_id": "768954554429-se1q1okvspfam8cur55o8eenrjsc8c6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC11X-Pm6D0jK7Bzipxl64qQBTjYzRIZ8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768954554429-se1q1okvspfam8cur55o8eenrjsc8c6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

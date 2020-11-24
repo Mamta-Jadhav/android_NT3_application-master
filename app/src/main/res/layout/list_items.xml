@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:elevation="1dp"
+              android:layout_margin="16dp"
+              android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="1"
+                  android:background="#432762"
+                  android:layout_margin="16dp"
+                  android:orientation="horizontal">
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" Ticket No : "
+                  android:gravity="center|right"
+                  android:layout_weight=".1"
+                  android:textColor="#FFFFFF"
+                  android:textSize="22dp" />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#FFFFFF"
+                  android:hint="Number "
+
+                  android:textSize="22dp" />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight=".9"
+                  android:gravity="center|right"
+                  android:textColor="#FFFFFF"
+                  android:text="Department"
+                  android:textSize="22dp"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/assignedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_below="@+id/TotalTextView"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+
+        <TextView
+                android:id="@+id/leftTextAssigned"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_weight=".1"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:text="Title"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TotalTextView"
+        />
+
+        <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:textSize="14dp"
+                android:gravity="center|left"
+                android:layout_weight=".9"
+                android:hint="ABC Ticket"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/TotalTextView"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/newLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/assignedLayout"
+            android:weightSum="1"
+            android:background="@drawable/spinner_bg"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/leftTextNew"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_weight=".1"
+                android:text="Caller"
+                android:gravity="center"
+
+                android:layout_below="@+id/leftTextAssigned"
+        />
+
+        <TextView
+                android:id="@+id/callerTextView"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_weight=".9"
+                android:hint="xyz person"
+                android:textSize="14dp"
+                android:gravity="center|left"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/leftTextAssigned"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/pendingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newLayout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/spinner_bg"
+
+            android:weightSum="1"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/leftTextPending"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_weight=".1"
+                android:text="Agent"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/leftTextNew"
+                android:layout_alignTop="@+id/pendingLayout"/>
+
+        <TextView
+                android:id="@+id/agentTextView"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_weight=".5"
+                android:layout_alignParentRight="true"
+                android:hint="Agent X"
+                android:textSize="14dp"
+                android:gravity="center|left"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/resolvedLayout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/pendingLayout"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:background="@drawable/spinner_bg"
+                  android:weightSum="1"
+                  android:orientation="horizontal">
+        <TextView
+                android:id="@+id/leftTextResolved"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_weight=".1"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/leftTextPending"
+                android:text="Start Date"
+                android:gravity="center"
+        />
+
+        <TextView
+                android:id="@+id/startDateTextView"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_weight=".5"
+                android:layout_alignParentRight="true"
+                android:hint="14/7/2019"
+                android:textSize="14dp"
+                android:gravity="center|left"
+                android:layout_below="@+id/leftTextPending"
+        />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

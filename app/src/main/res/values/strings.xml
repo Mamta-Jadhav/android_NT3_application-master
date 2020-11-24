@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">NT3</string>
+    <!-- Strings related to login -->
+    <string name="prompt_organization">Organization Name</string>
+    <string name="firebase_server_key">AAAAJXhcCb0:APA91bHqVtIwjjE8LaQMHoOi0ROATk29F_w9eDJT3IeJmzqMM_mrU0scjBDYlUPWIGczT10V4J9LYwDcu8DjblKAMfIK4o5LuUsFMwvZvPBvhC7VNTakFhKpXNs3af8IgDspgjmeY4a5</string>
+    <string name="firebase_server_key1">AAAAHz0kTRY:APA91bEmDH6LywU53rz8YmDrjNl0Fc07Tmpmg36ShCpIXxQ994PlBTulEd9AY_KDc9Qktf0yEo2BkKkNeGCfUAtI2JIYbiSK4nDwPUWRgJjHJ4TVC08pFhMS4O2u53TgepxT1uf4_QKZ</string>
+    <string name="firebase_server_key2">AAAAswlDWD0:APA91bE49p1lwLZGIcb_fJ5j9LpopnXVQa3AVfuRmYviJc4bF9mVkJMRz_Yke-6p-QM3VhULaHm8N_dGFg7-yOI1w6wvbG0pKu0vRETZ4lerQO0P8G80t8D1J8sL1dngQC46L47w5v5T</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="welcome">Welcome to NT3!</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">LOGIN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="getstarted">GET STARTED</string>
+    <string name="connreq">Connection Request</string>
+    <string name="pnote">Please Note :</string>
+    <string name="note">To use NT3 application, You first need to create VPN. Once VPN created, You can use NT3 application.</string>
+    <string name="req1">NT3 wants to set up a VPN connection that allows it to monitor network traffic. Only accept if you trust the source.</string>
+    <string name="req2">appears at the top of your screen when VPN is active.</string>
+    <string name="dialogTitle">NT3</string>
+    <string name="norecords">No records available.</string>
+
+    <string name="Dashboard">Dashboard</string>
+    <string name="total_count">Total Count : </string>
+    <string name="status">Status : </string>
+    <string name="ticket_no">Ticket No : TT-000 </string>
+    <string name="title">Title : </string>
+    <string name="title1">title </string>
+    <string name="Caller">Reported By : </string>
+    <string name="Agent">Agent : </string>
+    <string name="Start_Date">Start Date : </string>
+    <string name="Priority">Priority : </string>
+
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Invalid_credentials">Invalid credentials</string>
+    <string name="no_data">No data found</string>
+    <string name="modify">MODIFY</string>
+    <string name="site_added">site added</string>
+    <string name="powerdedby">Powered by</string>
+    <string name="team">Team</string>
+    <string name="agentt">Agent</string>
+    <string name="pendingReason">Pending Reason</string>
+    <string name="service">Service</string>
+    <string name="serviceCat">Service subcategory</string>
+    <string name="resolutionCode">Resolution code</string>
+    <string name="solution">Solution</string>
+    <string name="userComment">User comment</string>
+    <string name="userSatisfaction">User satisfaction</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="critical">Critical</string>
+    <string name="select_one">Select One</string>
+    <string name="api_failed">"Api failed"</string>
+    <string name="download">PDF successfully downloaded</string>
+    <string name="Share">Share</string>
+    <string name="open">Open</string>
+    <string name="permission">Allow Permission and try agai</string>
+    <string name="Critical">Critical</string>
+    <string name="High">High</string>
+    <string name="Medium">Medium</string>
+    <string name="Low">Low</string>
+    <string name="new_incident">Add New Incident </string>
+
+   <!-- new incident-->
+    <string name="select_area">Select Area </string>
+    <string name="select_services">Select Services </string>
+    <string name="create">Create</string>
+    <string name="enter_title">Please enter title</string>
+    <string name="enter_area">Please select area</string>
+    <string name="enter_services">Please select services</string>
+    <string name="enter_caller">Please Add Reported Person </string>
+    <string name="general_info">General Information </string>
+    <string name="description">Description </string>
+    <string name="next">Next </string>
+    <string name="previous">Previous </string>
+    <string name="network">Network </string>
+    <string name="technology">Technologies </string>
+    <string name="service_affacted">Service Affected </string>
+    <string name="internation_calls">Internationa Calls </string>
+    <string name="voice_mails">Voice Mail </string>
+    <string name="dice">Dice </string>
+    <string name="fact">facturaco</string>
+    <string name="prepaid">Prepaid </string>
+    <string name="sms">SMS </string>
+    <string name="supervise">Supervise </string>
+    <string name="support_callcentre">Call Center Support </string>
+    <string name="inter_operators">InterOperator Support </string>
+    <string name="sales">Sales </string>
+    <string name="ussd">USSD </string>
+    <string name="you">YOU </string>
+    <string name="voice">Voice </string>
+    <string name="province">Province </string>
+    <string name="affacted_site">Affacted Site </string>
+    <string name="reason_qualifications">Reason &amp; Qualifications </string>
+    <string name="reason">Reason </string>
+    <string name="subreason">Sub Reason </string>
+    <string name="event">Event </string>
+    <string name="categories">Categories </string>
+    <string name="qualification">Qualifications Urgency </string>
+    <string name="affacted_site_list">Affected Sites </string>
+    <string name="select">Select One </string>
+    <string name="ticketAddedMessage"> Incident created. </string>
+    <string name="ticketAddingMessage"> Creating Incident... </string>
+    <string name="ok">Ok </string>
+    <string name="connecting">Connecting </string>
+    <string name="connected">Connected </string>
+    <string name="disconnected">Disconnected </string>
+
+    <string-array name="openIncidentsSpinner">
+        <item>Open Incidents</item>
+        <item>Open Problem</item>
+        <item>Open Changes</item>
+    </string-array>
+
+    <string-array name="statusAgentSpinner">
+        <item>status</item>
+        <item>agent</item>
+    </string-array>
+    <string-array name="statusAgentDepartmentSpinner">
+        <item>status</item>
+        <item>agent</item>
+        <item>Area</item>
+    </string-array>
+    <string-array name="statusDomainSpinner">
+        <item>status</item>
+        <item>domain</item>
+    </string-array>
+
+    <string-array name="ChangesSpinner">
+        <item>Emergency Change</item>
+        <item>Routine Change</item>
+        <item>Normal Change</item>
+    </string-array>
+
+</resources>

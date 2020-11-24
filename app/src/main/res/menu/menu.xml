@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+    <item
+            android:id="@+id/action_cut"
+            android:title="English"
+            app:showAsAction="never"
+
+            />
+    <item
+            android:id="@+id/action_copy"
+            android:title="English"
+            app:showAsAction="never"
+            />
+    <item
+            android:id="@+id/english"
+            android:title="English"
+            app:showAsAction="never"
+            />
+    <item
+            android:id="@+id/action_new"
+            android:title="Pourtugues"
+            app:showAsAction="never"
+            />
+</menu>

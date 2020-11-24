@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/toplRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#422462"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/ticketNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Ticket no 1" />
+
+            <TextView
+                android:id="@+id/departmentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="18dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="Ticket no 1" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toplRelativeLayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titleContainerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="18dp"
+                android:text="Title : "
+                android:textColor="#422462"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/titleValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="18dp"
+                android:layout_toRightOf="@+id/titleContainerTextView"
+                android:text="Title : "
+                android:textColor="#422462"
+                android:textSize="14sp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/caller_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/container_lay"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/callerContainerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Caller : "
+                android:textColor="#422462"
+                android:textSize="14sp"
+
+                />
+
+            <TextView
+                android:id="@+id/callerValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/callerContainerTextView"
+                android:text="Caller : "
+                android:textColor="#422462"
+                android:textSize="14sp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/agent_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caller_lay"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/agentContainerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Agent : "
+                android:textColor="#422462"
+                android:textSize="14sp"
+
+                />
+
+            <TextView
+                android:id="@+id/agentValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/agentContainerTextView"
+                android:text="Agent : "
+                android:textColor="#422462"
+                android:textSize="14sp"
+
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dateContainerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agent_lay"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:text="Start Date : "
+            android:textColor="#422462"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dateValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agent_lay"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/dateContainerTextView"
+            android:text="Start Date : "
+            android:textColor="#422462"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/priorityContainerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateContainerTextView"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:text="Priority : "
+            android:textColor="#422462"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/priorityValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateContainerTextView"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/priorityContainerTextView"
+            android:text="Priority: "
+            android:textColor="#422462"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/statusContainerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/priorityContainerTextView"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:text="Status : "
+            android:textColor="#422462"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/statusValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/priorityContainerTextView"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/statusContainerTextView"
+            android:text="Status: "
+            android:textColor="#422462"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

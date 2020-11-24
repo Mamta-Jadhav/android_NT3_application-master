@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="#f5f5f5"
+              xmlns:tools="http://schemas.android.com/tools">
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="15dp"
+                                        android:background="@color/white"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:background="#f5f5f5"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+
+        <ProgressBar
+                android:id="@+id/loading_ticketdetails"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="64dp"
+                android:layout_centerInParent="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/password"
+                app:layout_constraintStart_toStartOf="@+id/password"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3"/>
+        <RelativeLayout
+                android:id="@+id/toplRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="#422462" android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+            <TextView
+                    android:id="@+id/ticketNumber"
+                    android:layout_width="wrap_content"
+                    tools:text="Ticket no 1"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/department"
+                    android:layout_width="wrap_content"
+                    tools:text="Ticket no 1"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="18dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <LinearLayout
+                android:id="@+id/container_lay"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/toplRelativeLayout">
+            <TextView
+                    android:id="@+id/titleContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title : "
+                    android:textColor="#422462"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="14sp"
+            />
+
+            <TextView
+                    android:id="@+id/titleValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title : "
+                    android:layout_marginTop="18dp"
+                    android:textColor="#422462"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="14sp"
+                    android:layout_toRightOf="@+id/titleContainerTextView"
+
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/caller_lay"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/container_lay">
+            <TextView
+                    android:id="@+id/callerContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Caller : "
+                    android:textColor="#422462"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="14sp"
+
+            />
+
+            <TextView
+                    android:id="@+id/callerValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Caller : "
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="#422462"
+                    android:textSize="14sp"
+                    android:layout_toRightOf="@+id/callerContainerTextView"
+
+            />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/agent_lay"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:layout_below="@+id/caller_lay">
+            <TextView
+                    android:id="@+id/agentContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agent : "
+                    android:textColor="#422462"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="14sp"
+
+            />
+
+            <TextView
+                    android:id="@+id/agentValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agent : "
+                    android:layout_marginTop="8dp"
+                    android:textColor="#422462"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="14sp"
+                    android:layout_toRightOf="@+id/agentContainer"
+
+            />
+        </LinearLayout>
+        <TextView
+                android:id="@+id/dateContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Date : "
+                android:layout_marginTop="8dp"
+                android:textColor="#422462"
+                android:layout_marginLeft="12dp"
+                android:textSize="14sp"
+                android:layout_below="@+id/agent_lay"
+        />
+
+        <TextView
+                android:id="@+id/dateValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Date : "
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="#422462"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/dateContainer"
+                android:layout_below="@+id/agent_lay"
+        />
+
+        <TextView
+                android:id="@+id/priorityContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priority : "
+                android:layout_marginTop="8dp"
+                android:textColor="#422462"
+                android:layout_marginLeft="12dp"
+                android:textSize="14sp"
+                android:layout_below="@+id/dateContainer"
+        />
+
+        <TextView
+                android:id="@+id/priorityValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priority: "
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="#422462"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/priorityContainer"
+                android:layout_below="@+id/dateContainer"
+        />
+
+
+        <TextView
+                android:id="@+id/statusContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status : "
+                android:layout_marginTop="8dp"
+                android:textColor="#422462"
+                android:layout_marginLeft="12dp"
+                android:textSize="14sp"
+                android:layout_below="@+id/priorityContainer"
+        />
+
+        <TextView
+                android:id="@+id/statusValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="#422462"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/statusContainer"
+                android:layout_below="@+id/priorityContainer"
+        />
+
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

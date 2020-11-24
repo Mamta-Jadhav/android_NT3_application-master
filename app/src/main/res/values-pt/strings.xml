@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">NT3</string>
+    <!-- Strings related to login -->
+    <string name="prompt_organization">Nome da organização</string>
+    <string name="firebase_server_key">AAAAJXhcCb0:APA91bHqVtIwjjE8LaQMHoOi0ROATk29F_w9eDJT3IeJmzqMM_mrU0scjBDYlUPWIGczT10V4J9LYwDcu8DjblKAMfIK4o5LuUsFMwvZvPBvhC7VNTakFhKpXNs3af8IgDspgjmeY4a5</string>
+    <string name="firebase_server_key1">AAAAHz0kTRY:APA91bEmDH6LywU53rz8YmDrjNl0Fc07Tmpmg36ShCpIXxQ994PlBTulEd9AY_KDc9Qktf0yEo2BkKkNeGCfUAtI2JIYbiSK4nDwPUWRgJjHJ4TVC08pFhMS4O2u53TgepxT1uf4_QKZ</string>
+    <string name="firebase_server_key2">AAAAswlDWD0:APA91bE49p1lwLZGIcb_fJ5j9LpopnXVQa3AVfuRmYviJc4bF9mVkJMRz_Yke-6p-QM3VhULaHm8N_dGFg7-yOI1w6wvbG0pKu0vRETZ4lerQO0P8G80t8D1J8sL1dngQC46L47w5v5T</string>
+    <string name="prompt_email">nome do usuário</string>
+    <string name="prompt_password">senha</string>
+    <string name="site_added">site adicionado</string>
+    <string name="low">Baixa</string>
+    <string name="medium">Média</string>
+    <string name="high">Alta</string>
+    <string name="critical">Crítica</string>
+    <string name="select_one">Selecione um</string>
+    <string name="powerdedby">Distribuído por</string>
+    <string name="team">Equipe</string>
+    <string name="agentt">Agente</string>
+    <string name="pendingReason">Razão pendente</string>
+    <string name="service">Serviço</string>
+    <string name="serviceCat">Subcategoria de serviço</string>
+    <string name="resolutionCode">Código de resolução</string>
+    <string name="solution">Solução</string>
+    <string name="userComment">Comentário do usuário</string>
+    <string name="userSatisfaction">Satisfação do usuário</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Bem-vindo ao NT3!"</string>
+    <string name="remember_me">Lembre de mim</string>
+    <string name="invalid_username">ão é um nome de usuário válido</string>
+    <string name="invalid_password">A senha deve ter> 5 caracteres</string>
+    <string name="login_failed">Falha na autenticação</string>
+    <string name="prompt_username">nome do usuário</string>
+    <string name="login">CONECTE-SE</string>
+    <string name="submit">ENVIAR</string>
+    <string name="Invalid_credentials">Credenciais inválidas</string>
+    <string name="no_data">Nenhum dado encontrado</string>
+    <string name="modify">MODIFICAR</string>
+    <string name="api_failed">"A API falhou"</string>
+    <string name="download">PDF baixado com sucesso</string>
+    <string name="Share">Compartilhar</string>
+    <string name="open">Open</string>
+    <string name="permission">Permitir permissão e tente novamente</string>
+    <string name="dialogTitle">NT3</string>
+    <string name="norecords">Nenhum registro disponível.</string>
+
+    <string name="Dashboard">painel de controle</string>
+    <string name="total_count">Contagem Total : </string>
+    <string name="status">estado : </string>
+    <string name="ticket_no">Bilhete não : TT-000 </string>
+    <string name="title">Título : </string>
+    <string name="title1">título </string>
+    <string name="Caller">Reportado por : </string>
+    <string name="Agent">Agente : </string>
+    <string name="Start_Date">Data de início : </string>
+    <string name="Priority">Prioridade : </string>
+    <string name="Critical">Crítico</string>
+    <string name="High">Alto</string>
+    <string name="Medium">Médio</string>
+    <string name="Low">Baixo</string>
+    <string name="new_incident">Adicionar novo incidente </string>
+    <string name="ticketAddedMessage"> Incidente criado.</string>
+    <string name="ticketAddingMessage"> Criando incidente ...</string>
+    <string name="ok">Está bem</string>
+
+    <!-- new incident-->
+    <string name="select_area">Selecionar Área </string>
+    <string name="select_services">Selecione Serviço </string>
+    <string name="create">Crio</string>
+    <string name="enter_title">Digite o título</string>
+    <string name="enter_area">Por favor selecione a área</string>
+    <string name="enter_services">Por favor, selecione serviços</string>
+    <string name="enter_caller">Adicionar pessoa denunciada </string>
+    <string name="general_info">Informação geral </string>
+    <string name="description">Descrição </string>
+    <string name="next">Próximo </string>
+    <string name="previous">Anterior </string>
+    <string name="network">Rede </string>
+    <string name="technology">Tecnologias </string>
+    <string name="service_affacted">Serviço afetado</string>
+    <string name="internation_calls">Chamadas internacionais </string>
+    <string name="voice_mails">Correio de voz </string>
+    <string name="dice">Dados </string>
+    <string name="fact">facturaco</string>
+    <string name="prepaid">Prepago </string>
+    <string name="sms">SMS </string>
+    <string name="supervise">Supervisao </string>
+    <string name="inter_operators">Suporte InterOperadoras </string>
+    <string name="support_callcentre">Suporte Call Center </string>
+    <string name="ussd">USSD </string>
+    <string name="sales">Vendas </string>
+    <string name="you">VAS </string>
+    <string name="voice">VOZ </string>
+    <string name="province">Província </string>
+    <string name="affacted_site">Site afetado </string>
+    <string name="reason_qualifications">Razão &amp; Qualificação </string>
+    <string name="reason">Razão </string>
+    <string name="subreason">Motivo secundário </string>
+    <string name="event">Eventos </string>
+    <string name="connreq">Solicitação de conexão</string>
+    <string name="getstarted">INICIAR</string>
+    <string name="pnote">Observe :</string>
+    <string name="note">Para usar o aplicativo NT3, você primeiro precisa criar VPN. Uma vez criada a VPN, você pode usar o aplicativo NT3.</string>
+    <string name="req1">O NT3 deseja configurar uma conexão VPN que permita monitorar o tráfego de rede. Aceite apenas se você confiar na fonte.</string>
+    <string name="req2">aparece na parte superior da tela quando a VPN está ativa.</string>
+    <string name="categories">Categorias </string>
+    <string name="qualification">Qualificação Urgência </string>
+    <string name="affacted_site_list"> sites afetados </string>
+    <string name="select">Selecione um </string>
+    <string name="connecting">Conectando </string>
+    <string name="connected">Conectada </string>
+    <string name="disconnected">Desconectado </string>
+
+    <string-array name="openIncidentsSpinner">
+        <item>Incidentes abertos</item>
+        <item>Problema em aberto</item>
+        <item>mudanças abertas</item>
+    </string-array>
+
+    <string-array name="statusAgentSpinner">
+        <item>estado</item>
+        <item>Agente</item>
+    </string-array>
+
+    <string-array name="statusAgentDepartmentSpinner">
+        <item>estado</item>
+        <item>Agente</item>
+        <item>Área</item>
+    </string-array>
+
+    <string-array name="statusDomainSpinner">
+        <item>estado</item>
+        <item>domínio</item>
+    </string-array>
+
+    <string-array name="ChangesSpinner">
+        <item>Mudança de Emergência</item>
+        <item>Mudança de rotina</item>
+        <item> Normal Mudança</item>
+    </string-array>
+</resources>
